@@ -10,7 +10,7 @@ f:RegisterEvent("PARTY_MEMBERS_CHANGED")
 
 function f:OnEvent(event)
     if event == "PARTY_MEMBERS_CHANGED" then
-        setMarks()
+        SetMarks()
     end
 end
 
